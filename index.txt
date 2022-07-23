@@ -1,10 +1,10 @@
 Taskbuddy
 
 My Day
-Friday, July 22
+Saturday, July 24
 
 aria-label = Toggle menu
-<ion-icon name="ellipsis-horizontal" aria-hidden="true"></ion-icon>
+<ion-icon name="ellipsis-horizontal" aria-hidde="true"></ion-icon>
 
 Theme
 
@@ -39,11 +39,12 @@ Version:
 1.0.0
 
 Publish:
-22 July 2022
+24 July 2022
 
 Last Update:
-22 July 2022
+24 July 2022
 
 Created by:
-Teddy Lumidi    
+teddylumidi
+
 Ok

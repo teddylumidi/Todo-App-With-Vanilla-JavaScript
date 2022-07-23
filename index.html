@@ -2,140 +2,198 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taskbuddy</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taskbuddy</title>
 
-    <!------------------------favicon------------------------->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-    <!------------------------custom css link ------------------------->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!------------------------ google font link------------------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-    <!------------------------ custom js link------------------------->
-    <script src="./assets/js/script.js"></script>
-
-    <!------------------------ ionicon link------------------------->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
-<body class="loaded">
+<body>
 
-    <!------------------------MAIN CONTAINER ------------------->
-    <div class="container">
-        <main class="main">
+  <!-- 
+    - #MAIN CONTAINER
+  -->
 
-            <article class="app-box">
-        <!------------------------HEADER ------------------->       
-                <header class="header">
+  <div class="container">
+    <main class="main">
 
-                    <div>
-                        <h1 class="h1 header-title">My Day</h1>
+      <article class="app-box">
 
-                        <p class="header-time" data-header-time>Friday, July 22</p>
-                    </div>
+        <!-- 
+          - #HEADER
+        -->
 
-                    <div class="dropdown-wrapper">
-                        <button class="menu-btn" aria-label="Toggle menu" data-menu-toggler>
-                            <ion-icon name="ellipsis-horizontal" aria-hidden="true"></ion-icon>
-                        </button>
+        <header class="header">
 
-        <!------------------------dropdown menu ------------------->
-                        <div class="dropdown-container" data-menu>
-                            <ul class="dropdown-list">
+          <div>
+            <h1 class="h1 header-title">My Day</h1>
 
-                                <li class="dropdown-item">
-                                    <p class="item-title">Theme</p>
+            <p class="header-time" data-header-time>Saturday, July 2</p>
+          </div>
 
-                                    <div class="theme-btn-group">
+          <div class="dropdown-wrapper">
+            <button class="menu-btn" aria-label="Toggle menu" data-menu-toggler>
+              <ion-icon name="ellipsis-horizontal" aria-hidde="true"></ion-icon>
+            </button>
 
-                                        <button class="theme-btn active" style="--hue:227" data-theme-btn
-                                        data-hue="227"></button>
+            <!-- 
+              - dropdown menu
+            -->
+            <div class="dropdown-container" data-menu>
+              <ul class="dropdown-list">
 
-                                        <button class="theme-btn active" style="--hue:298" data-theme-btn
-                                        data-hue="298"></button>
+                <li class="dropdown-item">
+                  <p class="item-title">Theme</p>
 
-                                        <button class="theme-btn active" style="--hue:344" data-theme-btn
-                                        data-hue="344"></button>
+                  <div class="theme-btn-group">
 
-                                        <button class="theme-btn active" style="--hue:2" data-theme-btn
-                                        data-hue="2"></button>
+                    <button class="theme-btn active" style="--hue: 227" data-theme-btn data-hue="227"></button>
 
-                                        <button class="theme-btn active" style="--hue:153" data-theme-btn
-                                        data-hue="153"></button>
+                    <button class="theme-btn" style="--hue: 298" data-theme-btn data-hue="298"></button>
 
-                                        <button class="theme-btn active" style="--hue:206" data-theme-btn
-                                        data-hue="206"></button>
+                    <button class="theme-btn" style="--hue: 344" data-theme-btn data-hue="344"></button>
 
-                                    </div>
-                                </li>
+                    <button class="theme-btn" style="--hue: 2" data-theme-btn data-hue="2"></button>
 
-                                <li class="dropdown-item">
-                                </li>
+                    <button class="theme-btn" style="--hue: 153" data-theme-btn data-hue="153"></button>
 
-                            </ul>
-                        </div>
-                    </div>
+                    <button class="theme-btn" style="--hue: 177" data-theme-btn data-hue="177"></button>
 
-                </header>
-            <!------------------------MAIN------------------->
-                <div class="title-wrapper" data-welcome-note>
-                    <img src="./assets/images/calender-image.svg" width="130" height="115" alt="calender-image" class="1mg">
-                    <h2 class="h2">
-                        Wondering where <br>
-                        your tasks are? 
-                    </h2>
-                </div>
+                    <button class="theme-btn" style="--hue: 206" data-theme-btn data-hue="206"></button>
 
-                <ul class="task-list" data-task-list>
+                  </div>
+                </li>
 
-                    <li class="task-item complete" data-task-item>
-                        <button class="item-icon" data-task-remove="complete">
-                            <span class="check-icon"></span>
-                        </button>
+                <li>
+                  <button class="dropdown-link" data-modal-toggler data-menu-toggler>
+                    <ion-icon name="information-circle-outline"></ion-icon>
 
-                        <p class="item-text">Build a todo app ✅</p>
+                    <span class="span">App info</span>
+                  </button>
+                </li>
 
-                        <button class="item-action-btn" aria-label="Remove task" data-task-remove="">
-                            <ion-icon name="trash-outline" aria-hidden="true"></ion-icon>
-                        </button>
+              </ul>
+            </div>
+          </div>
 
-                    </li>
-                </ul>
+        </header>
 
-                <div class="input-wrapper" title="Add a task in 'My Day'">
 
-                    <input type="text" name="task" aria-label="Add task" maxlength="100"
-                     placeholder="Try typing 'Jogging 20min at morning'" class="input-field" data-task-input>
 
-                     <span class="input-text">Add a task</span>
-                </div>
 
-                <div class="input-icon">
-                    <ion-icon name="add-outline" class="add-icon" aria-hidden="true"></ion-icon>
 
-                    <ion-icon name="ellipse-outline" class="circle-icon" aria-hidden="true"></ion-icon>
-                </div>
+        <!-- 
+          - #MAIN
+        -->
 
-            </article>
+        <div class="title-wrapper" data-welcome-note>
+          <img src="./assets/images/calender-image.svg" width="130" height="115" alt="calender image" class="img">
 
-        </main>
-    </div>
+          <h2 class="h2">
+            Wondering where <br>
+            your tasks are?
+          </h2>
+        </div>
 
-    <!------------------------custom js link ------------------->  
-    <script src="./assets/js/script.js"></script>
+        <ul class="task-list" data-task-list></ul>
 
-    <!------------------------ ionicon link ------------------------->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <div class="input-wrapper" title="Add a task in 'My Day'">
+
+          <input type="text" name="task" aria-label="Add task" maxlength="100"
+            placeholder="Try typing 'Jogging 20min at morning'" class="input-field" data-task-input>
+
+          <span class="input-text">Add a task</span>
+
+          <div class="input-icon">
+            <ion-icon name="add-outline" class="add-icon" aria-hidden="true"></ion-icon>
+
+            <ion-icon name="ellipse-outline" class="circle-icon" aria-hidden="true"></ion-icon>
+          </div>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!-- 
+        - #APP INFO MODAL
+      -->
+
+      <div class="app-info" data-info-modal>
+        <div class="modal">
+
+          <h2 class="modal-title">App info</h2>
+
+          <ul class="modal-list">
+
+            <li class="modal-item">
+              <strong class="strong">Version:</strong>
+
+              <span class="span">1.0.0</span>
+            </li>
+
+            <li class="modal-item">
+              <strong class="strong">Publish:</strong>
+
+              <span class="span">24 July 2022</span>
+            </li>
+
+            <li class="modal-item">
+              <strong class="strong">Last Update:</strong>
+
+              <span class="span">24 July 2022</span>
+            </li>
+
+            <li class="modal-item">
+              <strong class="strong">Created by:</strong>
+
+              <a href="https://twitter.com/teddylumidi" target="_black" class="span">teddylumidi</a>
+            </li>
+
+          </ul>
+
+          <button class="modal-btn" data-modal-toggler>Ok</button>
+
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
