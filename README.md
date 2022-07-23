@@ -1,19 +1,18 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/teddylumidi/taskbuddy)
-  ![GitHub stars](https://img.shields.io/github/stars/teddylumidi/taskbuddy?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/teddylumidi/taskbuddy?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/teddylumidi/ZenTask)
+  ![GitHub stars](https://img.shields.io/github/stars/teddylumidi/ZenTask?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/teddylumidi/ZenTask?style=social)
   [![Twitter Follow](https://img.shields.io/twitter/follow/teddylumidi?style=social)](https://twitter.com/intent/follow?screen_name=teddylumidi)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/BWmL66b9bOo?style=social)](https://youtu.be/BWmL66b9bOo)
 
   <br />
   <br />
 
-  <h2 align="center">Taskbuddy - Todo app</h2>
+  <h2 align="center">ZenTask - Todo app</h2>
 
-  Taskbuddy is a fully responsive todo app, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  ZenTask is a fully responsive todo app, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://teddylumidi.github.io/taskbuddy/"><strong>➥ Live Demo</strong></a>
+  <a href="https://teddylumidi.github.io/ZenTask/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +20,7 @@
 
 ### Demo Screeshots
 
-![Taskbuddy Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![ZenTask Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -31,18 +30,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Taskbuddy** locally, run this command on your git bash:
+To run **ZenTask** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/teddylumidi/taskbuddy.git
+sudo git clone https://github.com/teddylumidi/ZenTask.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/teddylumidi/taskbuddy.git
+git clone https://github.com/teddylumidi/ZenTask.git
 ```
 
 ### Contact
